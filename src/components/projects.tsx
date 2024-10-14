@@ -22,8 +22,6 @@ const Projects = () => {
             url: "https://sharetrip.net",
             image: "/project-images/sharetrip.png",
             tech: [
-                SiNextdotjs,
-                SiTailwindcss,
                 SiMysql,
                 SiRedis,
                 SiNestjs,
@@ -31,6 +29,8 @@ const Projects = () => {
                 SiKubernetes,
                 SiGit,
                 SiJira,
+                SiNextdotjs,
+                SiTailwindcss,
             ],
         },
         {

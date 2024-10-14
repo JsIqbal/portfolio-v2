@@ -1,6 +1,7 @@
 import React from "react";
 
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
@@ -26,7 +27,7 @@ const Socials = () => {
             url: "https://x.com/JavascriptIqbal",
             label: "X",
             icon: (
-                <FaTwitter className="w-full h-full group-hover:scale-110 transition-all duration-200 ease-in-out" />
+                <FaSquareXTwitter className="w-full h-full group-hover:scale-110 transition-all duration-200 ease-in-out" />
             ),
             border: "border-green-500",
         },

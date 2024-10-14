@@ -46,6 +46,18 @@ const Projects = () => {
                 SiCpanel,
             ],
         },
+        {
+            title: "Portfolio 1.0.0-beta",
+            url: "",
+            image: "/project-images/portfolio-beta.png",
+            tech: [SiNextdotjs, SiTailwindcss],
+        },
+        {
+            title: "Portfolio Alpha 0.1.0",
+            url: "https://portfolio-psi-wheat-51.vercel.app/",
+            image: "/project-images/portfolio-alpha.png",
+            tech: [SiNextdotjs, SiTailwindcss],
+        },
     ];
 
     return (

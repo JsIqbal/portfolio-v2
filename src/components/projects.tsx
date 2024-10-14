@@ -16,6 +16,7 @@ import {
     SiJavascript,
     SiTypescript,
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 const Projects = () => {
     const myProjects = [
@@ -33,6 +34,7 @@ const Projects = () => {
                 SiKubernetes,
                 SiGit,
                 SiJira,
+                FaAws,
                 SiNextdotjs,
                 SiTailwindcss,
             ],

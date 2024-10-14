@@ -32,7 +32,7 @@ export const Hero = () => {
                     transition={{ duration: 0.35, delay: 0.25 }}
                     className="text-base md:text-lg lg:text-2xl text-gray-300 lg:w-10/12 w-full"
                 >
-                    {`A fast & consistent learner on a journey to explore the wide world filled with complex problems & their solutions.`}
+                    {`Software Engineer who is a fast & consistent learner on a journey to explore the wide world filled with complex problems & their solutions.`}
                 </motion.p>
                 <motion.div
                     initial={{ x: "-4vw", opacity: 0 }}

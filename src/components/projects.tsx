@@ -13,6 +13,8 @@ import {
     SiJira,
     SiReact,
     SiCpanel,
+    SiJavascript,
+    SiTypescript,
 } from "react-icons/si";
 
 const Projects = () => {
@@ -22,10 +24,12 @@ const Projects = () => {
             url: "https://sharetrip.net",
             image: "/project-images/sharetrip.png",
             tech: [
+                SiJavascript,
+                SiTypescript,
+                SiNodedotjs,
+                SiNestjs,
                 SiMysql,
                 SiRedis,
-                SiNestjs,
-                SiNodedotjs,
                 SiKubernetes,
                 SiGit,
                 SiJira,

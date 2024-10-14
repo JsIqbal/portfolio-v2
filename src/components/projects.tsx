@@ -62,7 +62,11 @@ const Projects = () => {
 
     return (
         <div className="flex flex-col w-full md:py-24 py-16">
-            <Title text="Collaborative Projects ✨" />
+            <Title
+                className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-center px-4 md:px-8 lg:px-12"
+                text="Collaborative Projects ✨"
+            />
+
             <ProjectsCards projects={myProjects} />
         </div>
     );
